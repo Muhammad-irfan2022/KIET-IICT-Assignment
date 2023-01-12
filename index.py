@@ -22,9 +22,9 @@ StreamLit allows to :green[easily] add checkboxes, sliders, progress bars etc.""
 st.markdown(":green[Hello!]")
 chkRed = st.checkbox("Show in Red")
 if chkRed:
-st.markdown(":red[Red highlight on.]")
+	st.markdown(":red[Red highlight on.]")
 else:
-st.write("Red highlight is off!")
+	st.write("Red highlight is off!")
 
 sliderValue = st.slider("TEST", min_value=0, max_value=10, value=4, step=2, on_change=None);
 st.write("This is so easy. Slider is set at value ",sliderValue,".")
